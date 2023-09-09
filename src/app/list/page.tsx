@@ -1,7 +1,6 @@
 import { Box, Button } from "@mui/material";
-import React from "react";
 
-const page = () => {
+const List = () => {
   return (
     <Box className="bg-black h-screen w-full p-4">
       <Button variant="contained"></Button>
@@ -10,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default List;
